@@ -28,8 +28,9 @@
     box-sizing: border-box;
 }
 html {
-    font-size: 10px;
+    font-size: 15px;
     font-family: 'Montserrat', sans-serif;
+    color: white
 }
 a{
     text-decoration: none;
@@ -44,7 +45,7 @@ a{
 #hero {
     background-image: url(https://images.pexels.com/photos/3800060/pexels-photo-3800060.jpeg?auto=compress&cs=tinysrgb&dpr=1&);
     background-size: cover;
-    background-position: top center;
+    background-position: center;
     position: relative;
     z-index: 1;
 }
