@@ -1,6 +1,6 @@
 .navbar ul{
     list-style: none;
-    background: pink;
+    background: white;
     padding:0;
     margin:0;
     text-align: right;
@@ -30,7 +30,7 @@
 html {
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
-    color: dark pink
+    color: white
 }
 a{
     text-decoration: none;
