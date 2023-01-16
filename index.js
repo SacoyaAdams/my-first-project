@@ -2,7 +2,7 @@ const input = document.getElementById('new_search');
 document.querySelector('form').addEventListener('submit', (e) => {
     e.preventDefault()
 input.addEventListener('click', function() {
-  alert('Lets Explore Makeup !!!');
+  alert('Lets Explore Makeup Products !!!');
 })
     console.log(e.target.search.value)
     fetch(`http://makeup-api.herokuapp.com/api/v1/products.json?brand=${e.target.search.value}`)
@@ -17,7 +17,7 @@ input.addEventListener('click', function() {
         let price = document.createElement('p');
         price.textContent = dataItem.price
         let rating = document.createElement('p');
-        rating.textcontent = dataItem.rating
+        rating.textContent = dataItem.rating
         let element = document.getElementById('result')
         element.appendChild(image)
         element.appendChild(name)
