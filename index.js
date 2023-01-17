@@ -19,13 +19,13 @@ input.addEventListener('click', function() {
         name.textContent = dataItem.name
         let price = document.createElement('p');
         price.textContent = dataItem.price
-        let rate = document.createElement('p');
-        rate.textContent = datatItem.rate
+        let rating = document.createElement('p');
+        rating.textContent = dataItem.rating
         let element = document.getElementById('result')
         element.appendChild(image)
         element.appendChild(name)
         element.appendChild(price)
-        element.appendChild(rate)
+        element.appendChild(rating)
         
       
       })
