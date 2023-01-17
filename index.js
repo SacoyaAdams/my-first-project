@@ -5,7 +5,7 @@ const input = document.getElementById('new_search');
 document.querySelector('form').addEventListener('submit', (e) => {
     e.preventDefault()
 input.addEventListener('click', function() {
-  console.log("button clicked")
+
   alert('Lets Explore Makeup Products !!!');
 })
 
