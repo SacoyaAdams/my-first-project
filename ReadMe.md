@@ -1,5 +1,5 @@
 # The Makeup Brand Search Engine
-
+hello my name is sacoya 
 ## Introduction
 As my first official project I've created a single page application that utilizes HTML, CSS and Javascript. The use for this application is to provide a user friendly experience. Based off the user's input, this application will showcase the ability to asynchronously fetch data from a public api (no need for authentication). With one click of a button a user will have the ability to view various items of makeup products.
 
